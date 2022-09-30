@@ -283,12 +283,10 @@ public class Calc extends javax.swing.JDialog {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btn_clrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_clrActionPerformed
-        // TODO add your handling code here:
         txtf_output.setText("0.00");
     }//GEN-LAST:event_btn_clrActionPerformed
 
     private void btn_delActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_delActionPerformed
-        // TODO add your handling code here:
         if(!txtf_output.getText().equals("")&&!txtf_output.getText().equals("0.00")){
             txtf_output.setText(txtf_output.getText().substring(0,txtf_output.getText().length()-1));
         }
